@@ -34,7 +34,7 @@ Open the `config.json` file in your fork and replace the default client_id with 
 
 ```json
 {
-  "client_id": "YOUR_UNIQUE_UUID_HERE"
+  "client_id": "PASTE_YOUR_UNIQUE_UUID_HERE"
 }
 ```
 
@@ -53,10 +53,11 @@ After running the workflow:
 
 1. Go to the `output/` folder in your forked repository.  
 2. You will find your **personalized M3U8 playlist** (`plutotv_us.m3u8`) that uses your own client ID.  
-3. Open the .m3u8 file, click the three dots (⋯), then select Raw and copy the URL.
+3. Open the .m3u8 file → tap the three dots (mobile) → select View → copy the URL.
+On desktop, just click Raw → copy the URL.
 ### Example RAW URL format:
 ```text
-https://raw.githubusercontent.com/NasiLemakk/Pluto-TV-Playlists/main/pluto.m3u
+https://raw.githubusercontent.com/NasiLemakk/Pluto-TV-Playlists/main/plutotv_us.m3u
 ```
 Add the URL above as a remote playlist in your IPTV player (TiviMate, IPTV Smarters, OTT Navigator, etc).
 
